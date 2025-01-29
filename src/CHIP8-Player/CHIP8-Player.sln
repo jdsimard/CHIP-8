@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CHIP8-Player", "CHIP8-Player.csproj", "{71D3C2C5-12B9-4B58-AA4B-E5BDB8DDA3F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CHIP8-VirtualMachine", "..\CHIP8-VirtualMachine\CHIP8-VirtualMachine.csproj", "{86A3BDF5-C305-4AEE-BAB3-91620E17020F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{772B34FA-4734-44A8-881C-BF5896934438}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\img_Chip8-player_ui_0.png = ..\..\img_Chip8-player_ui_0.png
+		..\..\img_Chip8-player_ui_1.png = ..\..\img_Chip8-player_ui_1.png
+		..\..\LICENSE = ..\..\LICENSE
+		..\..\README.md = ..\..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CHIP-8 Sample Programs", "CHIP-8 Sample Programs", "{A59BD9BD-E41F-4016-BEEF-2B5B26972E60}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\CHIP-8 Sample Programs\caveexplorer.ch8 = ..\..\CHIP-8 Sample Programs\caveexplorer.ch8
+		..\..\CHIP-8 Sample Programs\flightrunner.ch8 = ..\..\CHIP-8 Sample Programs\flightrunner.ch8
+		..\..\CHIP-8 Sample Programs\glitchGhost.ch8 = ..\..\CHIP-8 Sample Programs\glitchGhost.ch8
+		..\..\CHIP-8 Sample Programs\octojam9title.ch8 = ..\..\CHIP-8 Sample Programs\octojam9title.ch8
+		..\..\CHIP-8 Sample Programs\RPS.ch8 = ..\..\CHIP-8 Sample Programs\RPS.ch8
+		..\..\CHIP-8 Sample Programs\snake.ch8 = ..\..\CHIP-8 Sample Programs\snake.ch8
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71D3C2C5-12B9-4B58-AA4B-E5BDB8DDA3F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D3C2C5-12B9-4B58-AA4B-E5BDB8DDA3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D3C2C5-12B9-4B58-AA4B-E5BDB8DDA3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D3C2C5-12B9-4B58-AA4B-E5BDB8DDA3F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86A3BDF5-C305-4AEE-BAB3-91620E17020F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A3BDF5-C305-4AEE-BAB3-91620E17020F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A3BDF5-C305-4AEE-BAB3-91620E17020F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A3BDF5-C305-4AEE-BAB3-91620E17020F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
