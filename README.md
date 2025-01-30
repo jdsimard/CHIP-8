@@ -319,6 +319,10 @@ private void InitializeSymbolDataInMemory()
 ```
 
 ```
+private void SetInitialLoadedState()
+```
+
+```
 private ushort Fetch()
 ```
 

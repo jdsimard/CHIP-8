@@ -185,12 +185,29 @@ namespace JoelSimard.CHIP8
                     idx++;
                 }
                 fs.Close();
+                SetInitialLoadedState();
                 return true;
             }
             else
                 return false;
         }
 
+        private void SetInitialLoadedState()
+        {
+            OpcodeClearScreenBuffer();
+            InitializeKeyPressedStates();
+            InitializeSymbolDataInMemory();
+            PC = programEntry;
+            I = 0x0000;
+            delayTimer = 0x00;
+            soundTimer = 0x00;
+            for (int i = 0; i < V.Length; i++)
+            {
+                V[i] = 0x00;
+            }
+            callStackLength = 0;
+            timerCycleInstructionCount = 0;
+        }
 
         public bool IsRenderDue()
         {
